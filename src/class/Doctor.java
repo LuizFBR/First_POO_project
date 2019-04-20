@@ -36,7 +36,7 @@ public class CrazyDoctor implements IDoctor {
         String attributes[] = producer.requestAttributes();
         
         if ( responder.ask(attributes[4]).equals("yes")) return "bite_deficit";
-        else if ( responder.ask(attributes[0]).equals("yes") return "bacterial_infection";
+        else if ( responder.ask(attributes[0]).equals("yes")) return "bacterial_infection";
         if ( responder.ask(attributes[1]).equals("yes")) {
             if ( responder.ask(attributes[6]).equals("yes")) return "bite_deficit";
             else return "bacterial_infection";
