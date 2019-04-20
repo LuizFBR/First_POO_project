@@ -1,4 +1,4 @@
 package interfaces;
 
-public interface IDoctor extends IEnquire, IResponderReceptable, ITableProducerReceptable {
+public interface IDoctor extends IEnquire, IResponderReceptable, ITableProducerReceptable, IQuestionTree {
 }
