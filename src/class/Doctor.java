@@ -1,8 +1,7 @@
-import java.util.Random;
+package class;
 
-// combinando duas interfaces para IPatient
-public interface IDoctor extends IEnquirer, IResponderReceptacle, ITableProducerReceptacle {
-}
+import java.util.Random;
+import interaces.*;
 
 public class CrazyDoctor implements IDoctor {
     private int patientN = 0;
