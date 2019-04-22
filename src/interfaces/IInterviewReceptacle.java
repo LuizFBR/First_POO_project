@@ -1,5 +1,5 @@
 package interfaces;
 
-public interface IInterviewReceptacle {
-    public void connect(IResponder responder);
+public interface IQuestionTreeReceptacle {
+    public void connect(IQuestionTree questionTree);
 }
