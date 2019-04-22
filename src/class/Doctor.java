@@ -1,4 +1,4 @@
-package class; // No Eclipse é "package classes;". Confirma isso no seu software por favor.
+package class;
 
 import java.util.Random;
 import interaces.*; //Não seria interfaces; ???
