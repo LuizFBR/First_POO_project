@@ -1,7 +1,7 @@
-package class;
+package class; // No Eclipse é "package classes;". Confirma isso no seu software por favor.
 
 import java.util.Random;
-import interaces.*;
+import interaces.*; //Não seria interfaces; ???
 
 public class CrazyDoctor implements IDoctor {
     private int patientN = 0;
