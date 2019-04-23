@@ -1,7 +1,7 @@
 package class;
 
 import java.util.Random;
-import interaces.*; //Não seria interfaces; ???
+import interfaces.*;
 
 public class CrazyDoctor implements IDoctor {
     private int patientN = 0;
