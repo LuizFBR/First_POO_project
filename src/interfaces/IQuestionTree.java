@@ -1,5 +1,5 @@
 package interfaces;
 
-public interface IQuestionTree {
-  public String interview();
+public interface IQuestionTree{
+    public String interview(IResponder responder);
 }
